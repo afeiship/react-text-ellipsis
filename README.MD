@@ -31,6 +31,10 @@
 
 ## usage:
 ```jsx
+// install: npm install afeiship/react-text-ellipsis --save
+// import : import ReactTextEllipsis from 'react-text-ellipsis'
+
+
 class App extends React.Component{
   render(){
     return (
