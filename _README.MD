@@ -2,6 +2,17 @@
 > React text overflow ellipsis component.
 
 
+## dependencies:
+```css
+.line-clamp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+```
+
 ## properties:
 ```javascript
 BACKUP_PROPERTIES

@@ -1,5 +1,3 @@
-import './style.scss';
-
 import React,{PureComponent} from 'react';
 
 import PropTypes from 'prop-types';
@@ -25,7 +23,7 @@ export default class extends PureComponent{
     const {line,padding,className,children,...props} = this.props;
     return (
       <div {...props} style={{padding}} className={classNames('react-text-ellipsis',className)}>
-        <div className={`bd lc__${line}`} >{children}</div>
+        <div className="line-clamp bd" style={{WebkitLineClamp:line}}>{children}</div>
       </div>
     );
   }
