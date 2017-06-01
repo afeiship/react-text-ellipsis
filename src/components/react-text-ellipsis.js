@@ -10,12 +10,12 @@ export default class extends PureComponent{
   static propTypes = {
     className:PropTypes.string,
     line:PropTypes.any,
-    padding:PropTypes.any,
+    padding:PropTypes.string,
   };
 
   static defaultProps = {
     line:1,
-    padding:0
+    padding:'0'
   };
   /*===properties end===*/
 
